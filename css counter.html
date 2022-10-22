@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+    <title>css counter</title>
+    <style>
+        body{
+            counter-reset: topic;
+
+        }
+        h3::before{
+            counter-increment: topic;
+            content: "topic " counter(topic) "---"
+        }
+        a{
+            color: goldenrod;
+            font-size: 35px;
+            padding: 10px;
+            text-decoration: none;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>programing tutorial</h1>
+    <h3>css</h3>
+    <h3>html</h3>
+    <h3>java</h3>
+    <h3>python</h3>
+    <h3>c programing</h3>
+    <h3>C++</h3>
+    <div>
+        <a href=" https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi6wYKNyPH6AhWYSWwGHVx0AqIQFnoECBcQAQ&url=https%3A%2F%2Fwww.w3schools.com%2Ftags%2Ftag_link.asp&usg=AOvVaw01_-xY74i2KJe7FGY6smeZ">1</a>
+        <a href=" https://www.html.com">2</a>
+        <a href=" https://www.python.com">3</a>
+        <a href=" https://www.javascript.com">4</a>
+        <a href=" https://www.css.com">5</a>
+        <a href=" https://www.sql.com">6</a>
+    </div>
+</body>
+</html>

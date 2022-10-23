@@ -1,0 +1,37 @@
+.article{
+    column-count: 4;
+    column-gap: 35px;
+    column-rule-color: blue;
+    column-rule-style: double;
+    column-rule-width: 5px;
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(7,7,36);
+}
+ body{
+    background-image: url("indian.jpg");
+    background-size: cover;
+    
+ }   
+
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 4px 5px 6px black;
+}
+.btn{
+    background-color: skyblue;
+    border: 5px blue double;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    color: navy;
+    padding: 28px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: blue;
+    color: snow;
+}
